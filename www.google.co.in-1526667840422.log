@@ -1,0 +1,120 @@
+var i,val=0; //i and val initialized to 0
+		for(i=1;i<=100;i++){
+			val=val+1;
+		/* output to the browser console the iteration value of integer i and the modulus of 3 as well as modulus of 5 equals to 0 in the for loop */
+		if(val%3==0 && val%5==0){
+			console.log(i+" FizzBuzz");
+		}
+		// output to the browser console the iteration value of integer i and the modulus of 3 equals to 0 in the for loop
+		else if(val%3==0){
+			console.log(i+" Fizz");
+		}
+		// output to the browser console the iteration value of integer i and the modulus of 5 equals to 0 in the for loop
+		else if(val%5==0){
+				console.log(i+" Buzz");
+			}
+		 // output to the browser console the iteration value of integer i in the for loop
+		else {
+				console.log(i);
+		}
+	}
+VM156:18 1
+VM156:18 2
+VM156:10 3 Fizz
+VM156:18 4
+VM156:14 5 Buzz
+VM156:10 6 Fizz
+VM156:18 7
+VM156:18 8
+VM156:10 9 Fizz
+VM156:14 10 Buzz
+VM156:18 11
+VM156:10 12 Fizz
+VM156:18 13
+VM156:18 14
+VM156:6 15 FizzBuzz
+VM156:18 16
+VM156:18 17
+VM156:10 18 Fizz
+VM156:18 19
+VM156:14 20 Buzz
+VM156:10 21 Fizz
+VM156:18 22
+VM156:18 23
+VM156:10 24 Fizz
+VM156:14 25 Buzz
+VM156:18 26
+VM156:10 27 Fizz
+VM156:18 28
+VM156:18 29
+VM156:6 30 FizzBuzz
+VM156:18 31
+VM156:18 32
+VM156:10 33 Fizz
+VM156:18 34
+VM156:14 35 Buzz
+VM156:10 36 Fizz
+VM156:18 37
+VM156:18 38
+VM156:10 39 Fizz
+VM156:14 40 Buzz
+VM156:18 41
+VM156:10 42 Fizz
+VM156:18 43
+VM156:18 44
+VM156:6 45 FizzBuzz
+VM156:18 46
+VM156:18 47
+VM156:10 48 Fizz
+VM156:18 49
+VM156:14 50 Buzz
+VM156:10 51 Fizz
+VM156:18 52
+VM156:18 53
+VM156:10 54 Fizz
+VM156:14 55 Buzz
+VM156:18 56
+VM156:10 57 Fizz
+VM156:18 58
+VM156:18 59
+VM156:6 60 FizzBuzz
+VM156:18 61
+VM156:18 62
+VM156:10 63 Fizz
+VM156:18 64
+VM156:14 65 Buzz
+VM156:10 66 Fizz
+VM156:18 67
+VM156:18 68
+VM156:10 69 Fizz
+VM156:14 70 Buzz
+VM156:18 71
+VM156:10 72 Fizz
+VM156:18 73
+VM156:18 74
+VM156:6 75 FizzBuzz
+VM156:18 76
+VM156:18 77
+VM156:10 78 Fizz
+VM156:18 79
+VM156:14 80 Buzz
+VM156:10 81 Fizz
+VM156:18 82
+VM156:18 83
+VM156:10 84 Fizz
+VM156:14 85 Buzz
+VM156:18 86
+VM156:10 87 Fizz
+VM156:18 88
+VM156:18 89
+VM156:6 90 FizzBuzz
+VM156:18 91
+VM156:18 92
+VM156:10 93 Fizz
+VM156:18 94
+VM156:14 95 Buzz
+VM156:10 96 Fizz
+VM156:18 97
+VM156:18 98
+VM156:10 99 Fizz
+VM156:14 100 Buzz
